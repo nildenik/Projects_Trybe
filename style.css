@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+#cabecalho {
+  position: fixed;
+  top: 0;
+  letter-spacing: 5px;
+  margin-left: 600px;
+  padding: 10px;
+  border-top: cornsilk;
+}
+.icone {
+  float: right;
+  width: 500px;
+  height: 500px;
+}
+#minha_foto {
+  border: royalblue;
+  border-radius: 50%;
+}
+#frase_link {
+  display: inline-block;
+}
+.lado-esquerdo {
+  background-color: rgb(17, 119, 160);
+  color: beige;
+  font-family: monospace, sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  padding: 100px;
+  top: 370px;
+  word-spacing: 1;
+  mask-position: 100px;
+  width: 350px;
+  position: absolute;
+  line-height: 150%;
+}
+.lado-direito {
+  background-color: cadetblue;
+  color: aquamarine;
+  font-family: monospace, sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  float: left;
+  margin-left: 600px;
+  width: 1200px;
+  top: 380px;
+  position: absolute;
+  padding: 10px;
+  border-top: cornsilk;
+  line-height: 110%;
+}
+
+.comentario {
+  background-color: brown;
+  color: bisque;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  float: left;
+  margin-left: 1400px;
+  width: 300px;
+  top: 365px;
+  position: absolute;
+  padding: 10px;
+  border-top: cornsilk;
+}
+#tabela {
+  background-color: black;
+  color: antiquewhite;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  letter-spacing: 6px;
+  float: left;
+  margin-left: 1400px;
+  width: 300px;
+  top: 600px;
+  position: absolute;
+  padding: 10px;
+  margin-top: 10;
+}
